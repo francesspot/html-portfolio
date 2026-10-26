@@ -6,18 +6,18 @@
 
 > 🎓 Exercise from **The Complete Web Development Bootcamp** course (Angela Yu, Udemy)
 
-A multi-page portfolio in HTML: a home page with project previews and links to subpages. Practice in linking pages and organising files into folders. 🔗
+A multi-page portfolio in HTML: a home page with project previews and links to subpages. Practice in linking pages and organising files into folders.
 
 ## 🗂️ Pages
 
-- 🏠 `index.html` — home page
-- 🎬 `public/movie-ranking.html` — favourite movies ranking
-- 🎂 `public/birthday-invite.html` — birthday invitation
-- 🙋 `public/about.html` and 📬 `public/contact.html`
+- `index.html` — home page
+- `public/movie-ranking.html` — favourite movies ranking
+- `public/birthday-invite.html` — birthday invitation
+- `public/about.html` and `public/contact.html`
 
 ## 🚀 Preview
 
-Links are root-relative, so start a local server:
+Links are root-relative, so serve the site through a local server:
 
 ```bash
 python -m http.server

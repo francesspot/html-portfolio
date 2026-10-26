@@ -6,18 +6,18 @@
 
 > 🎓 Ćwiczenie z kursu **The Complete Web Development Bootcamp** (Angela Yu, Udemy)
 
-Wielostronicowe portfolio w HTML-u: strona główna z podglądami projektów i linkami do podstron. Ćwiczenie z łączenia stron i porządkowania plików w folderach. 🔗
+Wielostronicowe portfolio w HTML-u: strona główna z podglądami projektów i linkami do podstron. Ćwiczenie z łączenia stron i porządkowania plików w folderach.
 
 ## 🗂️ Podstrony
 
-- 🏠 `index.html` — strona główna
-- 🎬 `public/movie-ranking.html` — ranking ulubionych filmów
-- 🎂 `public/birthday-invite.html` — zaproszenie na urodziny
-- 🙋 `public/about.html` i 📬 `public/contact.html`
+- `index.html` — strona główna
+- `public/movie-ranking.html` — ranking ulubionych filmów
+- `public/birthday-invite.html` — zaproszenie na urodziny
+- `public/about.html` i `public/contact.html`
 
 ## 🚀 Podgląd
 
-Linki są względem katalogu głównego, więc odpal lokalny serwer:
+Linki są względem katalogu głównego, więc stronę należy otworzyć przez lokalny serwer:
 
 ```bash
 python -m http.server
