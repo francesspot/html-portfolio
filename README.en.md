@@ -1,33 +1,26 @@
-[Polski](README.md) | **English**
+🇵🇱 [Polski](README.md) | 🇬🇧 **English**
 
-# HTML Portfolio
+# 🗂️ HTML Portfolio
 
-A multi-page portfolio website in pure **HTML**, built as an exercise in a web development course on linking pages and organising a project into folders.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 
-## Pages
+> 🎓 Exercise from **The Complete Web Development Bootcamp** course (Angela Yu, Udemy)
 
-- **`index.html`** — home page with links and preview images of two earlier projects,
-- **`public/movie-ranking.html`** — Movie Ranking project (top 3 films),
-- **`public/birthday-invite.html`** — Birthday Invite project,
-- **`public/about.html`** — About Me,
-- **`public/contact.html`** — Contact Me.
+A multi-page portfolio in HTML: a home page with project previews and links to subpages. Practice in linking pages and organising files into folders. 🔗
 
-`goal.png` and `solution.html` are the reference materials from the course.
+## 🗂️ Pages
 
-## Structure
+- 🏠 `index.html` — home page
+- 🎬 `public/movie-ranking.html` — favourite movies ranking
+- 🎂 `public/birthday-invite.html` — birthday invitation
+- 🙋 `public/about.html` and 📬 `public/contact.html`
 
-```
-index.html
-public/          – subpages
-assets/images/   – project previews
-```
+## 🚀 Preview
 
-## Running
-
-The links use root-relative paths (e.g. `/public/about.html`), so open the site through a local server rather than by double-clicking the file — for example the **Live Server** extension in VS Code, or:
+Links are root-relative, so start a local server:
 
 ```bash
 python -m http.server
 ```
 
-and go to <http://localhost:8000>.
+and open <http://localhost:8000> (or use Live Server in VS Code).

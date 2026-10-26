@@ -1,33 +1,26 @@
-**Polski** | [English](README.en.md)
+🇵🇱 **Polski** | 🇬🇧 [English](README.en.md)
 
-# Portfolio w HTML
+# 🗂️ Portfolio w HTML
 
-Wielostronicowa strona-portfolio w czystym **HTML**, wykonana jako ćwiczenie z kursu tworzenia stron, dotyczące łączenia podstron i porządkowania projektu w folderach.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 
-## Podstrony
+> 🎓 Ćwiczenie z kursu **The Complete Web Development Bootcamp** (Angela Yu, Udemy)
 
-- **`index.html`** — strona główna z odnośnikami i podglądami dwóch wcześniejszych projektów,
-- **`public/movie-ranking.html`** — projekt Movie Ranking (top 3 filmy),
-- **`public/birthday-invite.html`** — projekt Birthday Invite (zaproszenie na urodziny),
-- **`public/about.html`** — O mnie,
-- **`public/contact.html`** — Kontakt.
+Wielostronicowe portfolio w HTML-u: strona główna z podglądami projektów i linkami do podstron. Ćwiczenie z łączenia stron i porządkowania plików w folderach. 🔗
 
-`goal.png` i `solution.html` to materiały wzorcowe z kursu.
+## 🗂️ Podstrony
 
-## Struktura
+- 🏠 `index.html` — strona główna
+- 🎬 `public/movie-ranking.html` — ranking ulubionych filmów
+- 🎂 `public/birthday-invite.html` — zaproszenie na urodziny
+- 🙋 `public/about.html` i 📬 `public/contact.html`
 
-```
-index.html
-public/          – podstrony
-assets/images/   – podglądy projektów
-```
+## 🚀 Podgląd
 
-## Uruchomienie
-
-Odnośniki używają ścieżek względem katalogu głównego (np. `/public/about.html`), więc stronę otwieraj przez lokalny serwer, a nie dwuklikiem w plik — np. rozszerzeniem **Live Server** w VS Code albo:
+Linki są względem katalogu głównego, więc odpal lokalny serwer:
 
 ```bash
 python -m http.server
 ```
 
-i wejdź na <http://localhost:8000>.
+i wejdź na <http://localhost:8000> (albo użyj Live Server w VS Code).
